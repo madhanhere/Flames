@@ -7,17 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="a98f7b2731ff3b828134fac97c153c52fd282731">
+        sha1="f7008c30c99ea9e6727a425b29ffcc97f7281dac">
         <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\instant-run_a17495f4e2191cede0a295f12831ded331a8fcbd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\madhanhere\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_74d819595f9edfc587fc677bad1e97d96e8c8b58.jar" />
     </item>
     <item
         is-multidex="false"
@@ -43,8 +34,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9f7bd83cfda2ef591642f88a9ed874b44912f2be">
+        sha1="e17505a36a6b94abb323361aafcea89fc9bc64f0">
         <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8bc9b5cb2172fcd716c26a8d115d596a3b4f4bd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\madhanhere\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_74d819595f9edfc587fc677bad1e97d96e8c8b58.jar" />
     </item>
     <item
         is-multidex="false"
