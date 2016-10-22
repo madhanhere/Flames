@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\enemy.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\enemy.png"
+    },
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\sibling.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\sibling.png"
+    },
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\friend.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\friend.png"
+    },
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\love.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\love.png"
+    },
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\affection.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\affection.png"
+    },
+    {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\marriage.png",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\drawable-ldpi\\marriage.png"
+    }
+]

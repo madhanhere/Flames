@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/msg"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="50dp"
+            android:text="This App can predict your partner using flames formula. Hope you enjoy while using it. "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003366"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/close"
+            android:layout_alignBottom="@+id/close"
+            android:layout_alignRight="@+id/msg"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+        	android:typeface="monospace"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:text="Back"
+            android:textColor="#1A1D30"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:text="About Flames"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="61dp"
+            android:background="@android:color/transparent"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:text="Home"
+            android:textColor="#1A1D30"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+</RelativeLayout>

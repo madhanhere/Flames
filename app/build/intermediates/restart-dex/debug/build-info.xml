@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="34358931618973"
+    token="-8687590209150172510"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1020" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="665" />
+    <task
+        name="verifier"
+        duration="189" />
+
+    <artifact
+        location="F:\madhan\andrioid\Flames\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="34358931618973"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\madhan\andrioid\Flames\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
