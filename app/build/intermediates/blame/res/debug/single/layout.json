@@ -36,6 +36,10 @@
         "source": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreen_layout.xml",
+        "source": "F:\\madhan\\andrioid\\Flames\\app\\src\\main\\res\\layout\\splashscreen_layout.xml"
+    },
+    {
         "merged": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "F:\\madhan\\andrioid\\Flames\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },

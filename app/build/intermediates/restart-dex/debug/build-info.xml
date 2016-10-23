@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="36965415851030"
+    timestamp="75715140549351"
     token="-8687590209150172510"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="693" />
+        duration="632" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="332" />
+        duration="121" />
     <task
         name="verifier"
-        duration="94" />
+        duration="8" />
 
     <artifact
         location="F:\madhan\andrioid\Flames\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="36965415851030"
+        timestamp="75715140549351"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\madhan\andrioid\Flames\app\build\outputs\apk\app-debug.apk"
