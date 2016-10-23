@@ -21,21 +21,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\madhan\andrioid\Flames\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94f430ad92dd72416dc5318725094f678b86ca77">
+        <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8bc9b5cb2172fcd716c26a8d115d596a3b4f4bd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\madhan\andrioid\Flames\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
         <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_e77ab4f13a2bd4f764d1b389dc82171ecb2a2e8e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\madhan\andrioid\Flames\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e17505a36a6b94abb323361aafcea89fc9bc64f0">
-        <dex dex="F:\madhan\andrioid\Flames\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8bc9b5cb2172fcd716c26a8d115d596a3b4f4bd1.jar" />
     </item>
     <item
         is-multidex="false"

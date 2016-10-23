@@ -3,7 +3,6 @@ package com.example.bijuli;
 import android.support.v7.app.ActionBarActivity;
 import android.text.InputFilter;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +21,14 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	EditText name2;
 	
 	Toast msg;
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+        name1.setText("");
+        name2.setText("");
+        name1.requestFocus();
+    }
 
 	
     @Override
@@ -44,16 +51,17 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         filterArray1[0] = new InputFilter.LengthFilter(24);
         name2.setFilters(filterArray1);
 
+        getSupportActionBar().hide();
     }
     
     @Override
     public void onClick(View v){
-    	Intent intent = new Intent(this,Second_activity.class); 
+    	Intent intent = new Intent(this,ResultActivity.class);
         intent.putExtra("fname", name1.getText().toString());
         intent.putExtra("lname", name2.getText().toString());
         if(name1.getText().toString().trim().equals("") || name2.getText().toString().trim().equals("")){
-        	msg=Toast.makeText(this,"Make sure all fields are entered",Toast.LENGTH_LONG);
-            msg.show();	
+        	msg=Toast.makeText(this,"Make sure all fields are entered",Toast.LENGTH_SHORT);
+            msg.show();
         }
         else
         {    

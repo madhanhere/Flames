@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="My Prediction"
+        android:text="Your Result"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
  <ImageView
@@ -48,7 +48,7 @@
             android:shadowRadius="3"
             android:textStyle="bold"
         	android:typeface="monospace"
-            android:text="Home"
+            android:text="Exit"
             android:textColor="#1A1D30"
             android:textSize="12sp" />
 
