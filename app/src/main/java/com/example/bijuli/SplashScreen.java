@@ -13,7 +13,7 @@ import com.bijuli.birthday.R;
 
 public class SplashScreen extends Activity{
 
-    private static int TIMER = 3000;
+    private static int TIMER = 1000;
 
     @Override
     public void onCreate(Bundle savedInstance) {

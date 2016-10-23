@@ -1,16 +1,54 @@
 apply plugin: 'com.android.application'
 
+// A string that holds a build name.
+def devBuildName = "debug"
+// Used to get to the source of the project.
+def profileRootSource = projectDir.toString()
+// Used as part of file name.
+def devRootSource = profileRootSource + File.separator + "keystore" + File.separator + devBuildName
+// Branch name that the build is created from.
+def gitBranchName = 'git rev-parse --abbrev-ref HEAD'.execute([], project.rootDir).text.trim()
+// This contains the time when the build was generated.
+def buildTime = new Date().format("yyyy-MM-dd'T'HH:mm'Z'", TimeZone.getTimeZone("UTC"))
+// This contains only the date.
+def buildDate = buildTime.split('T')[0].replace('-', " ");
+// .apk name
+def buildName = devBuildName.toUpperCase().concat("-${gitBranchName}-".toUpperCase()).concat("${buildDate}")
+
 android {
     compileSdkVersion 21
     buildToolsVersion "24.0.3"
+
+    signingConfigs {
+        debug {
+//            storeFile file(devRootSource + File.separator + "debug.keystore.jks")
+            keyAlias 'Android certificate'
+            keyPassword '123456789'
+            storePassword '123456789'
+        }
+    }
 
     defaultConfig {
         applicationId "com.bijuli.birthday"
         minSdkVersion 18
         targetSdkVersion 23
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    output.outputFile = new File(
+                            output.outputFile.parent,
+                            output.outputFile.name.replace("app-debug.apk", "${buildName}.apk"))
+                }
+            }
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
