@@ -43,3 +43,7 @@ captures/
 
 app/src/main/res/Originals/
 .idea/libraries/
+/app/build/
+/app/app-release.apk
+/.idea/
+/app/app.iml
